@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: thousand-days-relay
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.mjs"
+    healthCheckPath: /

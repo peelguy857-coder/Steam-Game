@@ -1,0 +1,9 @@
+{
+  "name": "thousand-days-relay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Lobby relay for THOUSAND DAYS co-op. No dependencies.",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.mjs" }
+}
